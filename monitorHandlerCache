@@ -1,19 +1,13 @@
-<mxfile host="www.draw.io" modified="2019-10-30T10:58:30.616Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="xIWlz3eMQ3kJc8tecQgF" version="12.1.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-31T06:24:48.632Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="renxGlPr66l1uFpwX0Eb" version="12.1.8" type="github" pages="1">
   <diagram id="tRh4bHL3zUhyg42K1XET" name="Page-1">
-    <mxGraphModel dx="2334" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2499" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="TzmKYX7EX0ySN6W0DjCH-43" value="Redis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="390" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="TzmKYX7EX0ySN6W0DjCH-40" value="Redis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="390" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="TzmKYX7EX0ySN6W0DjCH-1" value="inv service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TzmKYX7EX0ySN6W0DjCH-1" value="Inventory service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="200" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="TzmKYX7EX0ySN6W0DjCH-2" value="Redis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TzmKYX7EX0ySN6W0DjCH-2" value="Redis&lt;br&gt;nodeId =&amp;gt; profileId&lt;br&gt;profileId =&amp;gt; profile" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="390" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="TzmKYX7EX0ySN6W0DjCH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TzmKYX7EX0ySN6W0DjCH-3" target="TzmKYX7EX0ySN6W0DjCH-1">
@@ -135,18 +129,6 @@
           <mxGeometry x="-0.0837" y="-2" relative="1" as="geometry">
             <mxPoint as="offset"/>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="TzmKYX7EX0ySN6W0DjCH-47" value="device 上线更新cache&lt;br&gt;telemetry 数据到达时更新cache&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="701" y="187" width="180" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="TzmKYX7EX0ySN6W0DjCH-48" value="考虑redis宕机时，inv要有感知，重建cache信息&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="705" y="333" width="270" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="TzmKYX7EX0ySN6W0DjCH-49" value="nodeId =&amp;gt; profileId&lt;br&gt;profileId =&amp;gt; profile" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="551" y="421" width="120" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="TzmKYX7EX0ySN6W0DjCH-50" value="inv 负责profile信息" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="447" y="143" width="110" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
